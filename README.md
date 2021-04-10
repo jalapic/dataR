@@ -10,6 +10,9 @@ Tools for creating datasets and graphs for intro stats tutorials and questions.
 
 #### Examples
 
+`library(dataR)`
+
+
 - To generate two vectors that correlate with a specific correlation:
 `get_cor(n=20, rho=0.4)`
 
