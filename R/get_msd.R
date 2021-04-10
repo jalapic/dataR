@@ -10,5 +10,7 @@
 #' @export
 
 get_msd <- function(n = NULL, mean = NULL, sd = NULL){
-mean+sd*scale(stats::rnorm(n))
+x <- mean+sd*scale(stats::rnorm(n))
+x <-  x[1:n]
+return(x)
 }
