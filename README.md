@@ -5,7 +5,7 @@ Tools for creating datasets and graphs for intro stats tutorials and questions.
 
 ### Install
 
-devtools::install_github("jalapic/dataR")
+`devtools::install_github("jalapic/dataR")`
 
 
 #### Examples
