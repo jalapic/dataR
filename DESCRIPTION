@@ -1,0 +1,15 @@
+Package: dataR
+Type: Package
+Title: Functions for Creating DataSets for Stats Teaching
+Version: 0.1.0
+Author: c(person("James P.", "Curley", role = c("aut","cre"),
+    email = "curley@utexas.edu")
+Maintainer: James P. Curley <curley@utexas.edu>
+Description: Quick functions to help create stats questions 
+    and datasets for intro stats.
+License: GPL-3
+Imports: 
+    stats
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
